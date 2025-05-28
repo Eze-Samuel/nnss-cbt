@@ -1,0 +1,47 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Performance</title>
+  <link rel="stylesheet" href="performance.css">
+  <link rel="icon" href="./Pictures/Abk.png" type="image/png">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" charset="UTF-8" href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.N…M.L.W.O/am=AAY/d=0/rs=AN8SPfrTSMIvWAFISYN4u74dPJrX0HgUsw/m=el_main_css">
+<meta http-equiv=Content-Type content="text/html; charset=windows-1252">
+<meta name=Generator content="Microsoft Word 15 (filtered)">
+</head>
+
+<body lang=EN-US>
+  <div class="app">
+ <div class="menu-toggle">
+   <div class="hamburger">
+     <span></span>
+   </div>
+ </div>
+
+ <aside class="sidebar">
+   <h3>Menu</h3>
+
+   <nav class="menu">
+     <a href="index.html" class="menu-item ">Home</a>
+     <a href="testlogin.html" class="menu-item">Test</a>
+     <a href="performance.html" class="menu-item is-active">Performance</a>
+     <a href="profile.html" class="menu-item">Profile</a>
+   </nav>
+
+ </aside>
+
+<div class=WordSection1>
+
+<p class=MsoNormal><img width=827 height=717 id="Chart 1"
+src="performance_files/image001.png"></p>
+
+</div>
+
+</body>
+
+</html>

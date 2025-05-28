@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Login - NNSS ABK</title>
+    <link rel="icon" href="./Pictures/Abk.png" type="image/png">
+    <link rel="stylesheet" href="test.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="app">
+        <div class="menu-toggle">
+            <div class="hamburger">
+                <span></span>
+            </div>
+        </div>
+
+		<div class="sidebar">
+			<h3>Menu</h3>
+
+			<nav class="menu">
+				<a href="index.html" class="menu-item">Home</a>
+				<a href="#" class="menu-item is-active">Test</a>
+				<a href="profile.html" class="menu-item">Profile</a>
+			</nav>
+        </div>
+
+        <div class="login-boc">
+            <div class="boc">
+                <h2>Welcome to CBT Portal</h2>
+            <p>Please enter your details to start the test.</p>
+            <form id="loginForm">
+                <div class="input-group">
+                    <label for="studentName">Full Name:</label>
+                    <input type="text" id="studentName" placeholder="e.g., John Adeyemi" required>
+                </div>
+                <div class="input-group">
+                    <label for="studentId">Student ID:</label>
+                    <input type="text" id="studentId" placeholder="e.g., BY0000" required>
+                </div>
+                <div class="input-group">
+                    <label for="subjectSelect">Select Subject:</label>
+                    <select id="subjectSelect" required>
+                        <option value="">-- Choose Subject --</option>
+                        <option value="math">Mathematics</option>
+                        <option value="english">English Language</option>
+                        <option value="physics">Physics</option>
+                        <option value="chemistry">Chemistry</option>
+                        <option value="biology">Biology</option>
+                        <option value="animalHusbandry">Animal Husbandry</option>
+                        <option value="civic">Civic Education</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn">Start Test</button>
+                <p id="loginError" class="error-message"></p>
+            </form>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

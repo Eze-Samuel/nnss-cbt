@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+.back{
+  background-image: url('./Pictures/back2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: brightness(0.8);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.navy{
+  width: 100px;
+  height: 150px;
+  margin-left: 20px;
+  margin-bottom: -60px;
+  border-radius: 20px;
+  margin-top: 30px;
+}
+.abk{
+  width: 150px;
+  margin-bottom: -60px;
+  margin-top: 30px;
+  border-radius: 20px;
+}
+html{
+  text-align: center;
+  font-family: Poppins, 'Segoe UI', sans-serif;
+}
+header{
+  padding-top: calc(50px + 1rem + 1px);
+}
+h1{
+  margin-top: 100px;
+  font-size: 3.75rem;
+  font-weight: bold;
+  line-height: 1.2em;
+  color: white;
+  margin-bottom: 15px
+}
+
+
+input{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  font: inherit;
+  border-radius: 30px;
+}
+input[type="text"]{
+  padding: 5px 20px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+
+button{
+  height: 40px;
+  width: 200px;
+  padding: 10px;
+  background-color: #0071ff;
+  color: white;
+  font-weight: 600;
+  border: none;
+  margin-top: 15px;
+  border-radius: 30px;
+  margin-left: 130px;
+}
+h1{
+  color: white;
+  font-weight: bold;
+  font-style: italic;
+  margin-bottom: 50px;
+}
+.id{
+  margin-top: -10px;
+}
+#dropdown{
+  display: flex;
+  flex-direction: column;
+  margin-top: -40px;
+}
+
+#dropdown select{
+  padding: 5px 20px;
+  width: 440px;
+  height: 60px;
+  border: none;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  border-radius: 30px;
+  margin-bottom: 15px;
+}
+#dropdown option{
+  padding: 5px 20px;
+  width: 400px;
+  height: 50px;
+  border: none;
+  color: white;
+  background-color: #515d6b;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: monospace;
+}
+
+@media (max-width: 1024px) {
+	.back{
+    min-height: 100vh;
+    width: 100%;
+    background-size: auto;
+  }
+  input[type="text"]{
+    height: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+	.back{
+    min-height: 100vh;
+    width: 100%;
+  }
+
+}
+@media (max-width : 400px) {
+  #dropdown{
+    height: 50vh;
+  }
+}

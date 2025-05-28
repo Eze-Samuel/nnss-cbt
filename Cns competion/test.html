@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CBT Test - NNSS ABK</title>
+    <link rel="icon" href="./Pictures/Abk.png" type="image/png">
+    <link rel="stylesheet" href="test.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="container">
+        <div class="test-header">
+            <h2 id="testSubject">Subject: </h2>
+            <div class="timer-box">Time Left: <span id="timer"></span></div>
+        </div>
+
+        <div class="question-area">
+            <div class="question-number">Question <span id="currentQuestionNumber">1</span> of <span id="totalQuestions"></span></div>
+            <p id="questionText" class="question-text"></p>
+            <div id="optionsContainer" class="options-container">
+                </div>
+            <p id="answerError" class="error-message"></p>
+        </div>
+
+        <div class="navigation-buttons">
+            <button id="prevBtn" class="btn nav-btn" disabled>Previous</button>
+            <button id="nextBtn" class="btn nav-btn">Next</button>
+            <button id="submitBtn" class="btn submit-btn" style="display: none;">Submit Test</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=0.1">
+  <title>Login</title>
+  <link rel="stylesheet" href="login.css">
+    <link rel="icon" href="./Pictures/Abk.png" type="image/png">
+</head>
+<body>
+  <div class="back">
+    <div class="front">
+      <!-- <nav>
+        <a href="login.html" class="active">Login</a>
+      </nav> -->
+      <div class="img">
+        <img class="navy" src="./Pictures/Navy.png" alt="navy logo">
+        <img class="abk" src="./Pictures/Abk.png" alt="Abeokuta logo">
+    </div>
+      <h1>Sign in</h1>
+      <form action="index.html" id="dropdown">
+                <input id="candidateName" type="text" placeholder="Candidate Name" required>
+                <input id="candidateNo" type="text" placeholder="Candidate No" required>
+                
+          <select id="grade" required>
+                        <option class="place" value="">-- CHOOSE CLASS --</option>
+                        <option value="JSS1">JSS1</option>
+                        <option value="JSS2">JSS2</option>
+                        <option value="JSS3">JSS3</option>
+                        <option value="SS1">SS1</option>
+                        <option value="SS2">SS2</option>
+                        <option value="SS3">SS3</option>
+                    </select>
+           <select id="arm" required>
+                        <option class="place" value="">-- CHOOSE ARM --</option>
+                        <option value="AGU">AGU</option>
+                        <option value="AYAM">AYAM</option>
+                        <option value="BARAMA">BARAMA</option>
+                        <option value="DAMISA">DAMISA</option>
+                        <option value="EKPE">EKPE</option>
+                        <option value="EKUN">EKUN</option>
+                    </select>
+              
+              <button class="id" type="submit" onclick="saveToLocalStorage()">LOGIN</button>
+          </form>          
+
+    </div>
+    
+  
+
+    
+  </div>
+    <script src="app.js"></script>
+</body>
+</html>
